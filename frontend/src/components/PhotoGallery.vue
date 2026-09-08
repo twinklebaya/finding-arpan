@@ -20,10 +20,6 @@ const GROUP_PHOTOS = [
     url: "/photos/kailash-tour-group.jpg",
     caption: "The full Kailash Journeys tour group at Hotel Tibet, Kathmandu",
   },
-  {
-    url: "/photos/location-timeline-search-area.jpg",
-    caption: "Location timeline and likely search area for Arpan, Bhavin and Karan",
-  },
 ];
 
 const scrollEl = ref(null);
