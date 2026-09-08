@@ -22,7 +22,7 @@ const GROUP_PHOTOS = [
   },
   {
     url: "/photos/location-timeline-search-area.jpg",
-    caption: "Location timeline and likely search area",
+    caption: "Location timeline and likely search area for Arpan, Bhavin and Karan",
   },
 ];
 
