@@ -36,11 +36,6 @@ const store = useCrisisStore();
         </div>
       </div>
 
-      <p class="mt-4 text-center text-xs text-gray-400">
-        <strong>{{ store.stats?.hub_registered_missing_count ?? 0 }}</strong> missing individuals
-        are registered on this hub specifically (see tables below), a small subset of the official
-        toll above.
-      </p>
       <p v-if="store.stats?.note" class="mt-2 text-center text-xs text-gray-400">
         {{ store.stats.note }}
       </p>
