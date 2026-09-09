@@ -7,7 +7,6 @@ import HeroSection from "../components/HeroSection.vue";
 import LiveFeeds from "../components/LiveFeeds.vue";
 import MapSection from "../components/MapSection.vue";
 import PhotoGallery from "../components/PhotoGallery.vue";
-import ResourcesSection from "../components/ResourcesSection.vue";
 import StatusTables from "../components/StatusTables.vue";
 import { useCrisisStore } from "../stores/crisis";
 
@@ -27,7 +26,6 @@ onUnmounted(() => store.stopPolling());
       </div>
     </section>
     <StatusTables />
-    <ResourcesSection />
     <LiveFeeds />
     <section class="bg-urgent-light py-8">
       <div class="mx-auto max-w-4xl px-4">

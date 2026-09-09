@@ -8,6 +8,13 @@ function scrollToForm() {
 </script>
 
 <template>
+  <router-link
+    to="/hope"
+    class="sticky top-0 z-50 block bg-urgent px-4 py-2 text-center text-sm font-semibold text-white hover:bg-red-800"
+  >
+    Global Event: Rasuwa Hope and Awareness &middot; This event has ended (Sept 6, 2026) &middot;
+    <span class="underline">Learn more &rarr;</span>
+  </router-link>
   <section class="relative bg-gray-900 text-white">
     <SocialShare />
     <div class="mx-auto max-w-7xl px-4 pt-6 sm:pt-8">
